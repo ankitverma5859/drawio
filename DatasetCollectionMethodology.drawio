@@ -1,1 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T10:07:44.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="18.1.1" etag="Tg-eszjNoOr4uQM6tZAe" type="github"><diagram id="g8Mgc51l2yiKj3rpBCFz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-10T11:49:22.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tubHEPcemuwrDHdN3AHn" version="18.1.1" type="github">
+  <diagram id="g8Mgc51l2yiKj3rpBCFz" name="RedditCommentsCollector">
+    <mxGraphModel dx="1123" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="150" y="30" width="580" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-2" value="Pushshift API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="55" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="FITu-vzMBJ0CVhgXV3UP-5">
+          <mxGeometry width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-4" value="Reddit Posts Collector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="FITu-vzMBJ0CVhgXV3UP-5">
+          <mxGeometry x="10.526315789473683" y="15" width="178.94736842105263" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="520" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="FITu-vzMBJ0CVhgXV3UP-6">
+          <mxGeometry width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-8" value="Reddit Comments Collector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="FITu-vzMBJ0CVhgXV3UP-6">
+          <mxGeometry x="10.526315789473683" y="15" width="178.94736842105263" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-13" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="282" y="270" width="42.97" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.214;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.4;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FITu-vzMBJ0CVhgXV3UP-3" target="FITu-vzMBJ0CVhgXV3UP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="160" as="sourcePoint" />
+            <mxPoint x="279.08000000000004" y="103.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.419;entryY=-0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FITu-vzMBJ0CVhgXV3UP-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="300" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=-0.004;entryY=0.664;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FITu-vzMBJ0CVhgXV3UP-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="324.97" y="300" as="sourcePoint" />
+            <mxPoint x="565.97" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="300" />
+              <mxPoint x="460" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Reddit Posts&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="250.98" y="313" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-27" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;[1]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="251.98" y="123" width="25" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-29" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;[2]&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="323" y="123" width="28" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-30" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;[3]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="267" y="234" width="35" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-31" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;[4]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="233" width="22" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-32" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;[5]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="567" y="122" width="35" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-33" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;[6]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="638" y="123" width="34" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-34" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;[7]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="232" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.786;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.4;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FITu-vzMBJ0CVhgXV3UP-7" target="FITu-vzMBJ0CVhgXV3UP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="599" y="160" as="sourcePoint" />
+            <mxPoint x="599.08" y="101.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="100" as="sourcePoint" />
+            <mxPoint x="640" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-37" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="602" y="270" width="42.97" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-39" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Reddit Comments&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="570.98" y="313" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-41" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.419;entryY=-0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="220" as="sourcePoint" />
+            <mxPoint x="620.00443" y="266.52200000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FITu-vzMBJ0CVhgXV3UP-44" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
