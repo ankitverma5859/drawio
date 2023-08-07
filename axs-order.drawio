@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T10:28:43.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="COYs87h6htXW6LbmCqCF" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-07T12:41:33.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="on9dfHCQagZ6_jz7lbl-" version="21.6.6" type="github" pages="2">
   <diagram name="Page-1" id="HNLe9tmTZSEHiI3kCB13">
     <mxGraphModel dx="1379" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -365,114 +365,171 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VLA9GJOyFq8i3yuY_fl8" name="Page-2">
-    <mxGraphModel dx="1149" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1766" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-1" value="SIAB UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-1" value="SIAB UI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-2" value="Patient Service&lt;br&gt;&lt;b&gt;/patient-hub/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-2" value="Customer Service&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/customer/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-3" value="Customer Service&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/customer/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="40" width="160" height="40" as="geometry" />
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-3" value="Customer Service&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/practitioner/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="799" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-4" value="SIAB Backed Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="40" width="160" height="40" as="geometry" />
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-4" value="SIAB Backed Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1039" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-5" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="610" as="sourcePoint" />
+            <mxPoint x="160" y="1042.3529411764705" as="sourcePoint" />
             <mxPoint x="160" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-7" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400.5" y="610" as="sourcePoint" />
+            <mxPoint x="400" y="1050" as="sourcePoint" />
             <mxPoint x="400.5" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-8" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="639.29" y="610" as="sourcePoint" />
-            <mxPoint x="639.29" y="80" as="targetPoint" />
+            <mxPoint x="880" y="1040" as="sourcePoint" />
+            <mxPoint x="878.29" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="879.29" y="610" as="sourcePoint" />
-            <mxPoint x="879.29" y="80" as="targetPoint" />
+            <mxPoint x="1118" y="1040" as="sourcePoint" />
+            <mxPoint x="1118.29" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="120" as="sourcePoint" />
+            <mxPoint x="160" y="358" as="sourcePoint" />
+            <mxPoint x="640" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[2] Searches for an existing Patient&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Patient&lt;/font&gt; /patient-hub/api/v1/patients/search&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="363" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="119" as="sourcePoint" />
             <mxPoint x="400" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-11" value="[1] Searches for an existing Patient" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="106" width="200" height="10" as="geometry" />
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[1] Searches for an existing Customers(Dentists)&amp;nbsp;&lt;br&gt;&lt;b&gt;/customer/api/v1/users/search&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="164" y="96" width="241" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[2] Creates a new Patient.&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Patient &lt;/font&gt;patient-hub/api/v1/patients&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="442.5" y="322" width="175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="199" as="sourcePoint" />
-            <mxPoint x="640" y="199" as="targetPoint" />
+            <mxPoint x="160" y="600" as="sourcePoint" />
+            <mxPoint x="1120" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-13" value="[2] Searches for an existing Customers(Dentists)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="242" y="185" width="320" height="10" as="geometry" />
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[4] Creates a case instance draft with arch type(Maxilla(upper), Mandila(lower), Dual)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="432" y="584" width="480" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-15" value="[1.1] Creates a new Patient." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="125" width="200" height="10" as="geometry" />
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[ siab/api/v1/case-instances/draft ]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="562" y="600" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="280" as="sourcePoint" />
-            <mxPoint x="880" y="280" as="targetPoint" />
+            <mxPoint x="160" y="695" as="sourcePoint" />
+            <mxPoint x="1120" y="696" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-17" value="[3] Creates a case instance draft with arch type(Maxilla(upper), Mandila(lower), Dual)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="264" width="480" height="10" as="geometry" />
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-20" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[5] PATCH API requests with each selection&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="680" width="230" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-18" value="[ siab/api/v1/case-instances/draft ]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="280" width="210" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="360" as="sourcePoint" />
-            <mxPoint x="880" y="360" as="targetPoint" />
+            <mxPoint x="160" y="705" as="sourcePoint" />
+            <mxPoint x="1120" y="706" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-20" value="[4] PATCH API requests with each selection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="242" y="346" width="320" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="370" as="sourcePoint" />
-            <mxPoint x="880" y="370" as="targetPoint" />
+            <mxPoint x="161" y="715" as="sourcePoint" />
+            <mxPoint x="1120" y="716" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[ siab/api/v1/case-instances/draft/{draft-id} ]&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="715" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="161" y="380" as="sourcePoint" />
-            <mxPoint x="880" y="380" as="targetPoint" />
+            <mxPoint x="160" y="799" as="sourcePoint" />
+            <mxPoint x="1120" y="799" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;[ siab/api/v1/case-instances/draft/{draft-id} ]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="380" width="250" height="20" as="geometry" />
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-26" value="[6] Submit the order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="786" width="320" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[ siab/api/v1/case-instances/start ]&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="796" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-1" value="Patient Service&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/patient-hub/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="559" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="440" as="sourcePoint" />
-            <mxPoint x="879" y="440" as="targetPoint" />
+            <mxPoint x="640" y="1040" as="sourcePoint" />
+            <mxPoint x="638.29" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-26" value="[5] Submit the order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="427" width="320" height="10" as="geometry" />
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="479" as="sourcePoint" />
+            <mxPoint x="880" y="479" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;[ siab/api/v1/case-instances/start ]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="437" width="250" height="20" as="geometry" />
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[3] Creates a Practitioner&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px;&quot; color=&quot;#0000ff&quot;&gt;Referring Dentist&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;registry/api/v1/practitioner&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="449" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-6" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Contributors&lt;/font&gt; (scope:&amp;nbsp;SAME_ORGANIZATION)&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="166.5" y="125" width="231" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="239" as="sourcePoint" />
+            <mxPoint x="400" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[1] Searches for an existing Customers(Dentists)&amp;nbsp;&lt;br&gt;&lt;b style=&quot;&quot;&gt;/customer/api/v1/users/search&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="166.5" y="216" width="229" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Case Owners&lt;/font&gt; (scope:&amp;nbsp;NETWORK)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="189.5" y="241" width="179" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[3]&amp;nbsp;Searches a Practitioner&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px;&quot; color=&quot;#0000ff&quot;&gt;Referring Dentist&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&amp;nbsp;/registry/api/v1/practitioners/search&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="161" y="880" as="sourcePoint" />
+            <mxPoint x="1121" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-15" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ff0000&quot;&gt;[7] Delete a draft&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465.5" y="867" width="129" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-16" value="&lt;span style=&quot;font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 10px;&quot;&gt;[&amp;nbsp;siab/api/v1/case-instances/draft/{draft-id}/delete&amp;nbsp;]&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421" y="877" width="499" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-17" value="Flowable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1040" as="sourcePoint" />
+            <mxPoint x="1370.29" y="80" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
