@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T12:41:33.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="on9dfHCQagZ6_jz7lbl-" version="21.6.6" type="github" pages="2">
-  <diagram name="Page-1" id="HNLe9tmTZSEHiI3kCB13">
-    <mxGraphModel dx="1379" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-08-08T08:50:05.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="C6_lTXzKAzqCBbVYp7cc" version="21.6.6" type="github" pages="3">
+  <diagram name="SiaB_Backend" id="HNLe9tmTZSEHiI3kCB13">
+    <mxGraphModel dx="1619" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -364,8 +364,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="VLA9GJOyFq8i3yuY_fl8" name="Page-2">
-    <mxGraphModel dx="1766" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+  <diagram id="VLA9GJOyFq8i3yuY_fl8" name="SiaB_OrderCreation">
+    <mxGraphModel dx="1619" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -375,7 +375,7 @@
         <mxCell id="qyOjLSUGKGQvyTlfbUjv-2" value="Customer Service&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/customer/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qyOjLSUGKGQvyTlfbUjv-3" value="Customer Service&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/practitioner/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="qyOjLSUGKGQvyTlfbUjv-3" value="Practitioner Service&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/practitioner/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="799" y="40" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qyOjLSUGKGQvyTlfbUjv-4" value="SIAB Backed Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -474,63 +474,71 @@
         <mxCell id="qyOjLSUGKGQvyTlfbUjv-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[ siab/api/v1/case-instances/start ]&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="796" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-1" value="Patient Service&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/patient-hub/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-1" value="Patient Service&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;/patient-hub/&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="559" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="1040" as="sourcePoint" />
             <mxPoint x="638.29" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="479" as="sourcePoint" />
             <mxPoint x="880" y="479" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[3] Creates a Practitioner&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px;&quot; color=&quot;#0000ff&quot;&gt;Referring Dentist&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;registry/api/v1/practitioner&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[3] Creates a Practitioner&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px;&quot; color=&quot;#0000ff&quot;&gt;Referring Dentist&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;registry/api/v1/practitioner&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="449" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-6" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Contributors&lt;/font&gt; (scope:&amp;nbsp;SAME_ORGANIZATION)&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-6" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Contributors&lt;/font&gt; (scope:&amp;nbsp;SAME_ORGANIZATION)&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="166.5" y="125" width="231" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="239" as="sourcePoint" />
             <mxPoint x="400" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[1] Searches for an existing Customers(Dentists)&amp;nbsp;&lt;br&gt;&lt;b style=&quot;&quot;&gt;/customer/api/v1/users/search&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[1] Searches for an existing Customers(Dentists)&amp;nbsp;&lt;br&gt;&lt;b style=&quot;&quot;&gt;/customer/api/v1/users/search&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="166.5" y="216" width="229" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Case Owners&lt;/font&gt; (scope:&amp;nbsp;NETWORK)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;Case Owners&lt;/font&gt; (scope:&amp;nbsp;NETWORK)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="189.5" y="241" width="179" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[3]&amp;nbsp;Searches a Practitioner&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px;&quot; color=&quot;#0000ff&quot;&gt;Referring Dentist&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&amp;nbsp;/registry/api/v1/practitioners/search&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[3]&amp;nbsp;Searches a Practitioner&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px;&quot; color=&quot;#0000ff&quot;&gt;Referring Dentist&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&amp;nbsp;/registry/api/v1/practitioners/search&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="480" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="161" y="880" as="sourcePoint" />
             <mxPoint x="1121" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-15" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ff0000&quot;&gt;[7] Delete a draft&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-15" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ff0000&quot;&gt;[7] Delete a draft&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="465.5" y="867" width="129" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-16" value="&lt;span style=&quot;font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 10px;&quot;&gt;[&amp;nbsp;siab/api/v1/case-instances/draft/{draft-id}/delete&amp;nbsp;]&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-16" value="&lt;span style=&quot;font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 10px;&quot;&gt;[&amp;nbsp;siab/api/v1/case-instances/draft/{draft-id}/delete&amp;nbsp;]&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="421" y="877" width="499" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-17" value="Flowable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-17" value="Flowable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1280" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1KF06LpZBA7tFEW2dyiu-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="1KF06LpZBA7tFEW2dyiu-18" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1370" y="1040" as="sourcePoint" />
             <mxPoint x="1370.29" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NA3ei8uZmF7aApYLelDf" name="CCPS_OrderCreation">
+    <mxGraphModel dx="1619" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
