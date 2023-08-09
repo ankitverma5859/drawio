@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T10:19:00.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="Jsqdyz_Wg0YBDr463wiT" version="21.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-09T05:46:22.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="c-Zt16-zZ2tJfXQ_jmqy" version="21.6.6" type="github" pages="4">
   <diagram name="SiaB_Backend" id="HNLe9tmTZSEHiI3kCB13">
-    <mxGraphModel dx="1619" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1236" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -707,6 +707,14 @@
         <mxCell id="fLvLAiN7whrw7s647oJl-6" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Submit an order&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="426.63" y="1010" width="162.75" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1W0QS10Dc1RUy_JAFk_P" name="SmileCloud">
+    <mxGraphModel dx="1236" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
