@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vUGVqtZLJylBDliw5mvh" name="Page-2">
-    <mxGraphModel dx="2313" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2034" dy="1006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,7 +138,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXwy55dE5661ueY_nYFr-42" value="Create License" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="yXwy55dE5661ueY_nYFr-42" value="Creates License" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1315" y="610" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yXwy55dE5661ueY_nYFr-43" value="Manages Billing and Subscription Lifecycle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
