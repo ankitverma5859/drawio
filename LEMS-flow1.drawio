@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vUGVqtZLJylBDliw5mvh" name="Page-2">
-    <mxGraphModel dx="925" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="558" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,23 +44,6 @@
         </mxCell>
         <mxCell id="yXwy55dE5661ueY_nYFr-13" value="Customer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="615" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yXwy55dE5661ueY_nYFr-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="yXwy55dE5661ueY_nYFr-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="630" as="sourcePoint" />
-            <mxPoint x="570" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vn4lkYHBXPwdu9jZ-167-1" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yXwy55dE5661ueY_nYFr-15">
-          <mxGeometry x="-0.2471" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yXwy55dE5661ueY_nYFr-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="yXwy55dE5661ueY_nYFr-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="910" y="629.78" as="sourcePoint" />
-            <mxPoint x="1030" y="630" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="yXwy55dE5661ueY_nYFr-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="yXwy55dE5661ueY_nYFr-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -363,6 +346,18 @@
         </mxCell>
         <mxCell id="yXwy55dE5661ueY_nYFr-107" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1565.99" y="640" width="20" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="rVRYdUukUyt1yT3pMsM5-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.041;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yXwy55dE5661ueY_nYFr-12" target="yXwy55dE5661ueY_nYFr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="660" as="sourcePoint" />
+            <mxPoint x="650" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVRYdUukUyt1yT3pMsM5-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yXwy55dE5661ueY_nYFr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="630" as="sourcePoint" />
+            <mxPoint x="900" y="580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
