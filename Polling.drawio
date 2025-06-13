@@ -208,6 +208,9 @@
         <mxCell id="bIHd8Lqd7nxUhWNbO2eW-66" value="Pull the top message from the service bus" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="620" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bIHd8Lqd7nxUhWNbO2eW-70" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Can we build this on Azure, with azure functions, and other resources?&lt;br&gt;Identify which resource can fit the building blocks.&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1560" width="1040" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
