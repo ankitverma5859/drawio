@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.0">
   <diagram name="Page-1" id="Vd9bo-pR_rMn81fmLaDE">
-    <mxGraphModel dx="1495" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1256" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="30" width="120" x="1280" y="210" as="geometry" />
+          <mxGeometry height="30" width="120" x="2380" y="350" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="360" width="1160" x="1280" y="240" as="geometry" />
+          <mxGeometry height="360" width="1160" x="2380" y="380" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="30" width="120" x="120" y="210" as="geometry" />
@@ -65,94 +65,78 @@
           <mxGeometry height="30" width="180" x="360" y="400" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ABABAB;" value="" vertex="1">
-          <mxGeometry height="100" width="490" x="1720" y="260" as="geometry" />
+          <mxGeometry height="100" width="490" x="2820" y="400" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Subscription Management Service" vertex="1">
-          <mxGeometry height="40" width="120" x="1760" y="290" as="geometry" />
+          <mxGeometry height="40" width="120" x="2860" y="430" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="License&amp;nbsp;&lt;div&gt;Management Service&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="2040" y="290" as="geometry" />
+          <mxGeometry height="40" width="120" x="3140" y="430" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="coDiagnostics" vertex="1">
-          <mxGeometry height="40" width="120" x="2280" y="480" as="geometry" />
+          <mxGeometry height="40" width="120" x="3380" y="620" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-17" edge="1" parent="1" source="zOcL_mUaWrS1Xp-nqhpU-16" style="endArrow=classic;html=1;rounded=0;entryX=0.703;entryY=1.044;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="zOcL_mUaWrS1Xp-nqhpU-15" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2100" y="450" as="sourcePoint" />
-            <mxPoint x="2150" y="400" as="targetPoint" />
+            <mxPoint x="3200" y="590" as="sourcePoint" />
+            <mxPoint x="3250" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fetches License Details and&amp;nbsp;&lt;div&gt;updates entitlements with &lt;b&gt;licenseKey&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="180" x="2210" y="400" as="geometry" />
+          <mxGeometry height="30" width="180" x="3310" y="540" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zOcL_mUaWrS1Xp-nqhpU-15" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1880" y="310" as="sourcePoint" />
-            <mxPoint x="1930" y="260" as="targetPoint" />
+            <mxPoint x="2980" y="450" as="sourcePoint" />
+            <mxPoint x="3030" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Straumann CoPilot&lt;div&gt;(AXS WebPortal)&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(uses AXS User Login Credentials to login&lt;/font&gt;)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="200" x="1680" y="480" as="geometry" />
+          <mxGeometry height="40" width="200" x="2780" y="620" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Compass&lt;div&gt;(Desktop Application)&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(uses AXS User Login Credentials to login&lt;/font&gt;)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="200" x="1960" y="480" as="geometry" />
+          <mxGeometry height="40" width="200" x="3060" y="620" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-22" edge="1" parent="1" source="zOcL_mUaWrS1Xp-nqhpU-20" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.389;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" target="zOcL_mUaWrS1Xp-nqhpU-15" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1600" y="310" as="sourcePoint" />
-            <mxPoint x="2100" y="340" as="targetPoint" />
+            <mxPoint x="2700" y="450" as="sourcePoint" />
+            <mxPoint x="3200" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.406;exitY=0.092;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2110" y="480.0000000000001" as="sourcePoint" />
-            <mxPoint x="2108.8" y="330" as="targetPoint" />
+            <mxPoint x="3210" y="620.0000000000001" as="sourcePoint" />
+            <mxPoint x="3208.8" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fetches License Details and&amp;nbsp;&lt;div&gt;updates entitlements with &lt;b&gt;OrganizationId&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="180" x="1920" y="420" as="geometry" />
+          <mxGeometry height="30" width="180" x="3020" y="560" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="We update the AXS user token to have External.License.Read.All and External.License.Write.All scopes" vertex="1">
-          <mxGeometry height="30" width="450" x="1690" y="530" as="geometry" />
+          <mxGeometry height="30" width="450" x="2790" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="zOcL_mUaWrS1Xp-nqhpU-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Approach 1" vertex="1">
+        <mxCell id="zOcL_mUaWrS1Xp-nqhpU-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Approach" vertex="1">
           <mxGeometry height="30" width="80" x="120" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="zOcL_mUaWrS1Xp-nqhpU-34" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Regular_Vol_1-2633/bx-comment-detail-968.svg" value="" vertex="1">
-          <mxGeometry height="24" width="24" x="300" y="154" as="geometry" />
-        </mxCell>
-        <mxCell id="zOcL_mUaWrS1Xp-nqhpU-35" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="290" y="228" />
-              <mxPoint x="240" y="178" />
-            </Array>
-            <mxPoint x="240" y="228" as="sourcePoint" />
-            <mxPoint x="290" y="178" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zOcL_mUaWrS1Xp-nqhpU-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SMS is just a postman :(" vertex="1">
-          <mxGeometry height="30" width="86" x="300" y="180" as="geometry" />
-        </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-37" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Regular_Vol_1-2633/bx-comment-detail-968.svg" value="" vertex="1">
-          <mxGeometry height="24" width="24" x="1990" y="670" as="geometry" />
+          <mxGeometry height="24" width="24" x="3090" y="810" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-38" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zOcL_mUaWrS1Xp-nqhpU-37" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="1970" y="647" />
-              <mxPoint x="1920" y="597" />
-              <mxPoint x="1980" y="641.5" />
+              <mxPoint x="3070" y="787" />
+              <mxPoint x="3020" y="737" />
+              <mxPoint x="3080" y="781.5" />
             </Array>
-            <mxPoint x="1870" y="560" as="sourcePoint" />
-            <mxPoint x="1999.664" y="605.8280000000002" as="targetPoint" />
+            <mxPoint x="2970" y="700" as="sourcePoint" />
+            <mxPoint x="3099.6639999999998" y="745.8280000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Approach 2" vertex="1">
-          <mxGeometry height="30" width="80" x="1280" y="210" as="geometry" />
+          <mxGeometry height="30" width="80" x="2380" y="350" as="geometry" />
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Either we add External scopes which exists now for llmited access or separate scops for applications which have axs-login but want to use lms" vertex="1">
-          <mxGeometry height="30" width="373" x="2017" y="664" as="geometry" />
+          <mxGeometry height="30" width="373" x="3117" y="804" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
