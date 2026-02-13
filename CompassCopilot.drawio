@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.0">
-  <diagram name="Page-1" id="Vd9bo-pR_rMn81fmLaDE">
-    <mxGraphModel dx="1570" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.8" pages="2">
+  <diagram name="Compass_ImplantPlanner_Approach" id="Vd9bo-pR_rMn81fmLaDE">
+    <mxGraphModel dx="3140" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,6 +128,68 @@
         </mxCell>
         <mxCell id="zOcL_mUaWrS1Xp-nqhpU-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Either we add External scopes which exists now for llmited access or separate scops for applications which have axs-login but want to use lms" vertex="1">
           <mxGeometry height="30" width="373" x="3117" y="804" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ju4JeQ0ZgN9gh6tFFvWr" name="ImplantPlanner_BackwardCompatiability">
+    <mxGraphModel dx="1570" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="120" x="280" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="360" width="1040" x="280" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ABABAB;" value="" vertex="1">
+          <mxGeometry height="100" width="490" x="720" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Subscription Management Service" vertex="1">
+          <mxGeometry height="40" width="120" x="760" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="License&amp;nbsp;&lt;div&gt;Management Service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1040" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="coDiagnostics" vertex="1">
+          <mxGeometry height="40" width="120" x="1040" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DF0dhSyKJsuvvJq4ngFp-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1100" y="700" as="sourcePoint" />
+            <mxPoint x="1150" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fetches License Details and&amp;nbsp;&lt;div&gt;updates entitlements with &lt;b&gt;licenseKey&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="1090" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DF0dhSyKJsuvvJq4ngFp-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="880" y="560" as="sourcePoint" />
+            <mxPoint x="930" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Straumann CoPilot/Compass&lt;div&gt;(AXS WebPortal)&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(uses AXS User Login Credentials to login&lt;/font&gt;)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="320" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-11" edge="1" parent="1" source="DF0dhSyKJsuvvJq4ngFp-10" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="DF0dhSyKJsuvvJq4ngFp-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="560" as="sourcePoint" />
+            <mxPoint x="650" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fetches License Details and&amp;nbsp;&lt;div&gt;updates entitlements with &lt;b&gt;OrganizationId&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="520" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Approach" vertex="1">
+          <mxGeometry height="30" width="80" x="280" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="190" width="1040" x="280" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="DF0dhSyKJsuvvJq4ngFp-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Text&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="1040" x="280" y="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
